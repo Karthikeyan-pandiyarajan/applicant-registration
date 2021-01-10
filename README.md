@@ -16,6 +16,9 @@ Run `npm start`, then open `http://localhost:8080`
 
 Goto "src/resources/api-service.ts" folder inside Application manager. Modify this url value into your service end point url like this `url: string = 'https://localhost:5001'.
 
+Save the changes and run the app with `au run or npm start`.
+..............................................................................................................................................................................
+
 You can change the standard webpack configurations from CLI easily with something like this: `npm start -- --open --port 8888`. However, it is better to change the respective npm scripts or `webpack.config.js` with these options, as per your need.
 
 To enable Webpack Bundle Analyzer, do `npm run analyze` (production build).
